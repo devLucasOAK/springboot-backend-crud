@@ -3,10 +3,12 @@ package com.lucasoak.springbootbackend.services;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import com.lucasoak.springbootbackend.domain.Categoria;
 import com.lucasoak.springbootbackend.repositories.CategoriaRepository;
+import com.lucasoak.springbootbackend.services.exceptions.DataIntegrityException;
 import com.lucasoak.springbootbackend.services.exceptions.ObjectNotFoundException;
 
 @Service
@@ -31,5 +33,18 @@ public class CategoriaService {
 		
 		find(obj.getId());
 		return repo.save(obj);
+	}
+	
+	public void delete(Integer id) {
+		
+		find(id);
+		try {
+		repo.deleteById(id);
+		}
+		catch(DataIntegrityViolationException e){
+			throw new DataIntegrityException("Não é possível excluir uma categoria que possui produtos");
+		}
+		
+		
 	}
 }

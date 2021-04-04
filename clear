@@ -1,0 +1,101 @@
+[33mcommit 457636083a9fd612741ecd66183a0c4011aa0ac7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Sun Apr 4 00:29:24 2021 -0300
+
+    Put Categoria, translate methods
+
+[33mcommit 978c6893188b2d059261760f90cb3d9955a15aec[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Sun Apr 4 00:06:31 2021 -0300
+
+    Post Categoria
+
+[33mcommit 35c12b431273d942a04658fea3ecffd015c95167[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Sat Apr 3 17:08:44 2021 -0300
+
+    JsonIgnore instead of JsonBackReference
+
+[33mcommit 73e65d90786dd42c373f017c6320c233d44c9501[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Sat Apr 3 16:49:16 2021 -0300
+
+    Endpoint pedidos
+
+[33mcommit e7668f0529e445da1efee3f70930e443eece5ef2[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Sat Apr 3 14:22:02 2021 -0300
+
+    ItemPedido e ItemPedidoPK
+
+[33mcommit 643524f4df012834657abd8cae30265ba4159117[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Sat Apr 3 01:16:43 2021 -0300
+
+    Pedido, Pagamento, EstadoPagamento
+
+[33mcommit 6290c7419938070d2caafd4a9cdc47f51e28ebc4[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Fri Apr 2 23:53:56 2021 -0300
+
+    Endpoint Clientes
+
+[33mcommit 342cbb99b3059da4612621909cae6e6addd2181b[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Fri Apr 2 17:19:54 2021 -0300
+
+    Cliente, Enums e Enderecos
+
+[33mcommit 8983ec9e5deeef6a0a0774bd03ebfe0d6b3fadfa[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Fri Apr 2 15:57:06 2021 -0300
+
+    Estado e Cidade
+
+[33mcommit 8140c68faf7062cf05f6cd1698ded106e0732068[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Fri Apr 2 14:01:21 2021 -0300
+
+    Exception Handlers
+
+[33mcommit 5de65245cc1dfe6a5eceeb48bb5ef2c52352f2c6[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Fri Apr 2 01:51:34 2021 -0300
+
+    Produto e associacao manytomany
+
+[33mcommit afa033dd7f806aabadcfabd46ca24a434588362d[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Wed Jan 27 23:02:05 2021 -0300
+
+    operacao de instanciacao com CommandLineRunner
+
+[33mcommit e9bd6e0668577677bd5a09bb55a45011cab56ff1[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Mon Jan 25 20:18:57 2021 -0300
+
+    Criando repository e service para Categoria
+
+[33mcommit 9accd7aba6594ffa24c60f3cdac1c9b85e66508d[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Mon Jan 25 18:35:57 2021 -0300
+
+    h2 database
+
+[33mcommit 619f358003c2ec1b50e4ecb454fa42f4c4590864[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Mon Jan 25 16:47:35 2021 -0300
+
+    Testando a primeira classe domain (Categoria)
+
+[33mcommit ac9e5e13fed321eefafb1e7017b7b7f458759348[m
+Author: devLucasOAK <devlucasoak@outook.com>
+Date:   Mon Jan 25 16:32:40 2021 -0300
+
+    rest working
+
+[33mcommit de276eb72d7d7495453ad4498a30628f3e7866cc[m
+Author: Lucas Carvalho <devlucasoak@outook.com>
+Date:   Thu Jan 21 00:25:57 2021 -0300
+
+    Initial Java11
