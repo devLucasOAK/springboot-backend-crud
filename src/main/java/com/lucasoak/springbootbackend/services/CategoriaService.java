@@ -11,6 +11,7 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
 import com.lucasoak.springbootbackend.domain.Categoria;
+import com.lucasoak.springbootbackend.dto.CategoriaDTO;
 import com.lucasoak.springbootbackend.repositories.CategoriaRepository;
 import com.lucasoak.springbootbackend.services.exceptions.DataIntegrityException;
 import com.lucasoak.springbootbackend.services.exceptions.ObjectNotFoundException;
@@ -59,5 +60,9 @@ public class CategoriaService {
 		PageRequest pageRequest = PageRequest.of(page, linesPerPage, Direction.valueOf(direction), orderBy);
 		
 		return repo.findAll(pageRequest);
+	}
+	
+	public Categoria fromDTO(CategoriaDTO objDTO) {
+		return new Categoria(objDTO.getId(), objDTO.getNome());
 	}
 }
